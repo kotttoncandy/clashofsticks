@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "events": "^3.3.0",
+    "express": "^4.17.3",
+    "kaboom": "^2000.2.9",
+    "mongodb": "^4.5.0",
+    "mongoose": "^6.2.10",
+    "path": "^0.12.7",
+    "socket.io": "^4.4.1",
+    "ws": "^8.5.0"
+  },
+  "name": "clash-of-sticks-multiplayer",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node multiplayer.js",
+    "build": "node multiplayer.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
